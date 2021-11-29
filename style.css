@@ -1,0 +1,848 @@
+@import url("https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    height: 805vh;
+}
+
+header{
+    width: 100%;
+    height: 624px;
+    background-image:url("Assets/star\ uó\ topo@2x.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+
+.inicio{
+    background-image:url("Assets/Kylo-Ren-banner\ sem\ fundo@2x.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 800px;
+    height: 600px;
+    margin-left: 190px;
+    margin-top: 129px;
+    position: absolute;
+    z-index: 1;
+}
+
+.Star{
+    width: 401px;
+    height: 97px;
+    margin-top: 130px; 
+    margin-left: 155px;
+    position: relative;
+    z-index: 0;
+}
+
+.Wars{
+    width: 401px;
+    height: 97px;
+    margin-left: 275px;
+    margin-top: 130px;
+    position: relative;
+    z-index: 0; 
+}
+
+.crie{
+    height: 176px;
+    width: 175px;
+    margin-top: 220px;
+    margin-left: 76%;
+    position: absolute;
+    z-index: 2;
+}
+
+.Sobre{
+    width: 817px;
+    height: 1400px;
+    background-image: url("Assets/sta\ uo\ robot.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comece{
+    width: 398px;
+    height: 584px;
+    background-image: url("Assets/Grupo\ vermelho@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 130px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.Capa{
+    height: 270px;
+    width: 398px;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+h1{
+
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 55%;
+    margin-top: 300px;
+    position: absolute;
+}
+
+
+.Line-one{
+    border-bottom: 2px solid black;
+    width: 190px;
+    height: 22px;
+    margin-left: 55%;
+    margin-top: 320px;
+    position: absolute;
+}
+
+#paragrafo-1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    width: 322px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 360px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+}
+
+#paragrafo-2{
+    font-weight: 500;
+    font-size: 14px ;
+    line-height: 18px;
+    width: 322px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 420px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+}
+
+.line-2{
+    width: 1220px;
+    position: absolute;
+    border-bottom: 2px solid black;
+    margin-left: 125px;
+    margin-top: 630px;
+}
+
+.estrutura{
+    width: 350px;
+    height: 100px;
+    margin-left: 43%;
+    margin-top: 61%;
+    position: absolute;
+    text-align: end;
+}
+
+.lord{
+    width: 700px;
+    height: 690px;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 180px;
+}
+
+h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.list{
+    width: 300px;
+    height: 300px;
+    text-align: end;
+    margin-left: 46%;
+    margin-top: 70%;
+    line-height: 45px;
+    position: absolute;
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li:hover{
+    background: rgb(252, 53, 4);
+    color: white;
+    cursor: pointer;
+}
+
+.Rey{
+    width: 350px;
+    height: 590px;
+    position: absolute;
+    margin-top: 860px;
+    margin-left: 930px; 
+}
+
+.atributos{
+    width: 100%;
+    height: 2040px;
+    background:rgb(53, 52, 52);
+    position: relative;
+}
+
+.galeria{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 19%;
+    padding-top: 10%;
+}
+
+.fotos{
+    width: 100%;
+    height: 600px;
+    margin-top: 90px;
+    display: flex;
+    padding-left: 5%;
+}
+
+#imagem-grande{
+    width: 500px;
+    height: 410px;
+}
+
+.fotos-menores-1{
+    height: 410px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos-menores-2{
+    height: 410px;
+    width: 330px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens-pequenas{
+    width: 330px;
+    height: 225px;
+}
+
+.imagens-pequenas:hover{
+    background-image: url("Assets/Grupo\ novos\ graficos@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Hierarquia{
+    width: 1100px;
+    height: 690px;
+    margin-left: 8.5%;
+}
+
+.direitos{
+    text-align: end;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-right: 9.4%;
+    margin-top: 30px;
+}
+
+.como-jogar{
+    height: 50px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 190px;
+}
+
+.atributos h3{
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Soldado{
+    width: 520px;
+    height: 780px;
+    position: absolute;
+}
+
+.botons{
+    width: 65%;
+    height: 300px;
+    margin-top: 12%;
+    margin-left: 34%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.download{
+    width: 230px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.externo{
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.box{
+    width: 260px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.descrition{
+    text-align: center;
+    font-weight: lighter;
+    line-height: 18px;
+}
+
+.interno{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.bar{
+    width: 100px;
+    height: 2px;
+    background: black;
+}
+
+.escolha{
+    width: 230px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.explorar{
+    width: 230px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.box:hover{
+    background:#D74430;
+}
+
+.externo:hover{
+    font-weight: bolder;
+}
+
+footer{
+    width: 100%;
+    height: 103vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+
+.dart{
+    position: absolute;
+    width: 560px;
+    height: 750px;
+    margin-left: 780px;
+    z-index: 2;
+}
+
+.baixe{
+    width: 70%;
+    height: 99.5vh;
+    background: #FF5A56;
+    position: absolute;
+    z-index: 1;
+}
+
+.app{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 150px;
+    color: white;
+    padding-top: 70px;
+}
+
+.comunidade{
+    margin-top: 50px;
+    margin-left: 150px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.plataformas{
+    width: 450px;
+    height: 100px;
+    margin-left: 130px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disponivel{
+    width: 200px;
+    height: 60px;
+}
+
+.line-pink{
+    width: 440px;
+    height: 4px;
+    background: #D74430;
+    margin-top: 30px;
+    margin-left: 145px;
+}
+
+.esta-ou{
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+.politica{
+    color: white;
+    margin-top: 25px;
+    margin-left: 145px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width:430px) {
+    body{
+        height: 4000px;
+    }
+
+    header{
+        background-image: url("Assets/star\ uó\ topo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+    }
+
+
+    .inicio{
+        background-image: url("Assets/Kylo-Ren-banner\ sem\ fundo.png");
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 220px;
+        margin-top: 13%;
+        margin-left: 7%;
+    }
+
+    .Star{
+        width: 90px;
+        height: 25px;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+
+    .Wars{
+        width: 90px;
+        height: 25px;
+        margin-left: 90px;
+        margin-top: 50px; 
+    }
+
+    .crie{
+        width: 50px;
+        height: 60px;
+        margin-top: 20%;
+        margin-left: 77%;
+    }
+
+    .Sobre{
+        width:375px ;
+        height: 668px ;
+    }
+
+    .comece{
+        background-image: url("Assets/Grupo\ vermelho.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 220px;
+        height: 340px;
+        margin-left: 35%;
+        margin-top: 170%;
+    }
+
+    .Capa{
+        width: 220px;
+        height: 150px;
+        margin-top: 125%;
+        margin-left: 35%; 
+    }
+    
+    h1{
+        width: 200px;
+        margin-left: 45%;
+        margin-top: 169%;
+        font-size: 20px;
+    }
+
+    .Line-one{
+        width: 250px;
+        margin-left: 25%;
+        margin-top: 172%;
+        position: absolute;
+        border-bottom: 4px solid black;
+    }
+
+    #paragrafo-1{
+        font-weight: 500;
+        font-size: 14px; 
+        line-height: 16px;
+        width: 300px;
+        position: absolute;
+        margin-left: 13%;
+        margin-top: 180%;
+    }
+
+    #paragrafo-2{
+        font-weight: 500;
+        font-size: 14px; 
+        line-height: 16px;
+        width: 300px;
+        position: absolute;
+        margin-left: 13%;
+        margin-top: 193%;
+    }
+
+    .line-2{
+        width: 380px;
+        position: absolute;
+        border-bottom: 2px solid #707070;
+        margin-left: 2%;
+        margin-top: 215%;
+    }
+
+    .estrutura{
+        width: 190px;
+        height: 100px;
+        margin-left: 28%;
+        margin-top: 230%;
+        position: absolute;
+        text-align: end;
+    }
+    
+    .lord{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        margin-top: 230%;
+        margin-left: 5%;
+        z-index: 3;
+    }
+    
+    h2{
+        font-weight: 900;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+    
+    h3{
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .list{
+        font-size: 10px;
+        width: 180px;
+        height: 300px;
+        text-align: end;
+        margin-left: 30%;
+        margin-top: 245%;
+        line-height: 20px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .Rey{
+        width: 100px;
+        height: 250px;
+        margin-left: 70%;
+        margin-top: 230%;
+    }
+
+    .atributos{
+        margin-top: 600px;
+        height: 1600px;
+        width: 100%;
+    }
+
+    .galeria{
+        font-size: 16px;
+        padding-top: 70px;
+        margin-left: 150px;
+    }
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+    #imagem-grande{
+        width: 300px;
+        height: 175px;
+    }
+
+
+    .fotos-menores-1{
+        height: 410px;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fotos-menores-2{
+        height: 410px;
+        width: 330px ;
+        display: flex;
+        flex-direction: column;
+    }
+
+.imagens-pequenas{
+    width: 300px;
+    height: 175px;
+
+}
+
+.Hierarquia{
+    width: 80%;
+    height: 270px;
+    margin-top: 80%;
+    margin-left: 9.5%;
+}
+
+.direitos{
+    font-size: 10px;
+    width: 230px;
+    height: 100px;
+    margin-left: 30%;
+}
+
+.como-jogar {
+    margin-top: 0%;
+}
+
+.como-jogar h3{
+    font-size: 16px;
+}
+
+.Soldado{
+    margin-left: -12%;
+    width: 250px;
+    height: 430px;
+}
+
+.botons{
+    width: 140px;
+    height: 350px;
+    margin-top: 12%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.download{
+    width: 120px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+.externo{
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.box{
+    width: 140px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.descrition{
+    text-align: center;
+    font-weight: lighter;
+    line-height: 18px;
+}
+
+.interno{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.bar{
+    width: 100px;
+    height: 2px;
+    background: black;
+}
+
+.escolha{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+.explorar{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+
+footer{
+    width: 100%;
+    height: 103vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+
+.dart{
+    position: absolute;
+    width: 270px;
+    height: 400px;
+    margin-top: 55%;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.baixe{
+    width: 100%;
+    height: 115vh;
+    background: #FF5A56;
+    position: absolute;
+    z-index: 1;
+}
+
+.app{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 80px;
+    color: white;
+    padding-top: 70px;
+}
+
+.comunidade{
+    margin-top: 50px;
+    margin-left: 70px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.plataformas{
+    width: 250px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disponivel{
+    width: 100px;
+    height: 30px;
+}
+
+.line-pink{
+    width: 290px;
+    height: 4px;
+    background: #D74430;
+    margin-top: 30px;
+    margin-left: 14%;
+}
+
+.esta-ou{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.politica{
+    color: white;
+    font-size: 10px;
+    margin-top: 25px;
+    margin-left: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+}
